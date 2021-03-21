@@ -9,9 +9,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.ExecutorService;
-
-import static java.util.concurrent.Executors.newFixedThreadPool;
+import java.util.HashMap;
+import java.util.Map;
 
 @Slf4j
 @Getter
@@ -20,14 +19,14 @@ import static java.util.concurrent.Executors.newFixedThreadPool;
 @Component
 public class Servidor {
 
-    private ExecutorService threadPool;
-
     private ServerSocket servidor;
+
+    private static final Map<String, DistribuirTarefas> clientesConectados = new HashMap<>();
 
     public void iniciaServidor() {
         this.criacaoServidor();
         try {
-            this.rodar(servidor, threadPool);
+            this.rodar(servidor);
         } catch (IOException e) {
             log.info(e.getMessage(), e.getCause());
         }
@@ -37,20 +36,20 @@ public class Servidor {
         try {
             log.info("iniciando o servidor...");
             this.setServidor(new ServerSocket(12345));
-            this.setThreadPool(newFixedThreadPool(4, new FabricaThread()));
         } catch (IOException e) {
             log.info(e.getMessage(), e.getCause());
         }
     }
 
-    private void rodar(ServerSocket servidor, ExecutorService threadPool) throws IOException {
+    private void rodar(ServerSocket servidor) throws IOException {
         while (true) {
             Socket socket = servidor.accept();
             log.info("Cliente conectado na porta {}", socket.getPort());
-            DistribuirTarefas distribuirTarefas = new DistribuirTarefas(socket, this, threadPool);
-            threadPool.execute(distribuirTarefas);
+            new DistribuirTarefas(socket);
         }
     }
 
-
+    public static Map<String, DistribuirTarefas> getClientesConectados() {
+        return clientesConectados;
+    }
 }
