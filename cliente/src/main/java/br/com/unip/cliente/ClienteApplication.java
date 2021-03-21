@@ -8,15 +8,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ClienteApplication implements CommandLineRunner {
 
-	@Autowired
-	private Cliente cliente;
+    @Autowired
+    private Cliente cliente;
 
-	public static void main(String[] args) {
-		SpringApplication.run(ClienteApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ClienteApplication.class, args);
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-		this.cliente.criacaoCliente();
-	}
+    @Override
+    public void run(String... args) throws Exception {
+        this.cliente.setHost("127.0.0.1");
+        this.cliente.setPorta(12345);
+        this.cliente.executa();
+    }
 }

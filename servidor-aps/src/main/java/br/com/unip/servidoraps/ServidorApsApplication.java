@@ -6,6 +6,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayList;
+
 @SpringBootApplication
 public class ServidorApsApplication implements CommandLineRunner {
 
@@ -19,6 +21,8 @@ public class ServidorApsApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		this.servidor.iniciaServidor();
+		this.servidor.setPorta(12345);
+		this.servidor.setClientes(new ArrayList<>());
+		this.servidor.executa();
 	}
 }
