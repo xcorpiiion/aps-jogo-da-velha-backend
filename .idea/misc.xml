@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/cliente/pom.xml" />
         <option value="$PROJECT_DIR$/jogo-da-velha/pom.xml" />
+        <option value="$PROJECT_DIR$/servidor-chat/servidor-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/servidor-jogo/servidor-jogo/pom.xml" />
+        <option value="$PROJECT_DIR$/servidor-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/servidor-jogo/pom.xml" />
       </list>
     </option>
   </component>
