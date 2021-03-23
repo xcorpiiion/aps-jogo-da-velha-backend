@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servidor-jogo-aps" />
-        <module name="servidor-aps" />
+        <module name="servidor-chat-aps" />
         <module name="jogo-da-velha" />
       </profile>
     </annotationProcessing>
@@ -17,6 +17,7 @@
       <module name="jogo-da-velha" target="1.8" />
       <module name="servidor-aps" target="1.8" />
       <module name="servidor-aps (1)" target="1.8" />
+      <module name="servidor-chat-aps" target="1.8" />
       <module name="servidor-jogo-aps" target="1.8" />
     </bytecodeTargetLevel>
   </component>

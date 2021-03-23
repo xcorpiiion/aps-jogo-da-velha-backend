@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aps-jogo-da-velha-backend.iml" filepath="$PROJECT_DIR$/.idea/aps-jogo-da-velha-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/jogo-da-velha/jogo-da-velha.iml" filepath="$PROJECT_DIR$/jogo-da-velha/jogo-da-velha.iml" />
-      <module fileurl="file://$PROJECT_DIR$/servidor-chat-aps/servidor-aps.iml" filepath="$PROJECT_DIR$/servidor-chat-aps/servidor-aps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servidor-chat-aps/servidor-chat-aps.iml" filepath="$PROJECT_DIR$/servidor-chat-aps/servidor-chat-aps.iml" />
       <module fileurl="file://$PROJECT_DIR$/servidor-jogo-aps/servidor-jogo-aps.iml" filepath="$PROJECT_DIR$/servidor-jogo-aps/servidor-jogo-aps.iml" />
     </modules>
   </component>

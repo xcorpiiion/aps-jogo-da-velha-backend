@@ -4,8 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/cliente/pom.xml" />
-        <option value="$PROJECT_DIR$/servidor-jogo-aps/pom.xml" />
-        <option value="$PROJECT_DIR$/servidor-chat-aps/pom.xml" />
         <option value="$PROJECT_DIR$/jogo-da-velha/pom.xml" />
       </list>
     </option>
