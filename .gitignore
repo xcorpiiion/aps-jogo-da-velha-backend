@@ -152,6 +152,7 @@ target/
 *.iws
 *.ipr
 .idea/
+.sonarlint
 
 
 # Folder config file
@@ -172,3 +173,10 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows
+.idea/sonarlint/
+.idea/sonarlint/issuestore/2/8/28d1cd0a9d7e4a92cd1aad88b2444b6475a20294
+.idea/sonarlint/issuestore/4/1/41f46ff6fe2768e7e7fcca1b5f30a04e372a875b
+.idea/sonarlint/issuestore/5/b/5b426cc5814e04ea29f8838c5cfa56b288c30a03
+.idea/sonarlint/issuestore/9/d/9da64711ef61dd6c31f2d3fcff31c7c72ae7891b
+.idea/sonarlint/issuestore/b/4/b46f03a9a403fccc291817a413c2c9356e2ea9d7
+.idea/sonarlint/issuestore/e/2/e2a0b05a7d72e249f80435b68bd23b28da8503b9
