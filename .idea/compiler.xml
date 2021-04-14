@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jogo-da-velha-aps" />
+        <module name="jogo-da-velha" />
         <module name="servidor-jogo" />
         <module name="servidor-chat" />
-        <module name="jogo-da-velha" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cliente" target="1.8" />
       <module name="jogo-da-velha" target="1.8" />
+      <module name="jogo-da-velha-aps" target="1.8" />
       <module name="servidor-aps" target="1.8" />
       <module name="servidor-aps (1)" target="1.8" />
       <module name="servidor-chat" target="1.8" />
@@ -27,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cliente" options="-parameters" />
       <module name="jogo-da-velha" options="-parameters" />
+      <module name="jogo-da-velha-aps" options="-parameters" />
       <module name="servidor-aps" options="-parameters" />
       <module name="servidor-aps (1)" options="-parameters" />
       <module name="servidor-chat" options="-parameters" />

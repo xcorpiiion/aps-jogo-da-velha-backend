@@ -1,104 +1,104 @@
 
-V	java:S110"<This class has 6 parents which is greater than 5 authorized.(‹÷”çÿÿÿÿÿ
+P
+java:S1854‹"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+A
+java:S1481±"*Remove this unused "valor" local variable.(íƒÍÑ
 >
-java:S1604D"(Make this anonymous inner class a lambda(¼µ»Ë
->
-java:S1604W"(Make this anonymous inner class a lambda(Ûó¡Û
-C
-java:S1604k"(Make this anonymous inner class a lambda(Çûå®øÿÿÿÿ
->
-java:S1604}"(Make this anonymous inner class a lambda(°Ç€¥
->
-java:S1604"(Make this anonymous inner class a lambda(öÇ,
+java:S1604ß"(Make this anonymous inner class a lambda(î™=
 D
-java:S1604£"(Make this anonymous inner class a lambda(¤Ş–¥øÿÿÿÿ
-?
-java:S1604¶"(Make this anonymous inner class a lambda(Á¡ğî
-?
-java:S1604É"(Make this anonymous inner class a lambda(¶óÂä
->
-java:S1604Ü"(Make this anonymous inner class a lambda(î™=
-m
-java:S1104"WMake matrizVelha a static final constant or non-public and provide accessors if needed.(’½…Ñ
+java:S1604¦"(Make this anonymous inner class a lambda(¤Ş–¥øÿÿÿÿ
+R	java:S125Š"<This block of commented-out lines of code should be removed.(§­­Ä
+A
+java:S1481ê"*Remove this unused "valor" local variable.(íƒÍÑ
+P
+java:S1854±"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+n	java:S116"TRename this field "button_00" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÚšşÿÿÿÿ
 w
-java:S1104%"\Make matrizVelhaBotao a static final constant or non-public and provide accessors if needed.(®˜×áüÿÿÿÿ
-r
-java:S1104+"WMake nomeJogador a static final constant or non-public and provide accessors if needed.(¾Â·åıÿÿÿÿ
+java:S1104("\Make matrizVelhaBotao a static final constant or non-public and provide accessors if needed.(®˜×áüÿÿÿÿ
+U
+java:S4973‚"9Use the "equals" method if value comparison was intended.(å·¬”ùÿÿÿÿ
 m
-java:S1104,"XMake nomeOponente a static final constant or non-public and provide accessors if needed.(™™ˆ~
-T
-java:S4973F"9Use the "equals" method if value comparison was intended.(Û¬ïşÿÿÿÿ
-O
-java:S4973Y"9Use the "equals" method if value comparison was intended.(ÒÓÚÄ
-O
-java:S4973m"9Use the "equals" method if value comparison was intended.(Âƒà
-T
-java:S4973"9Use the "equals" method if value comparison was intended.(å·¬”ùÿÿÿÿ
-P
-java:S4973’"9Use the "equals" method if value comparison was intended.(’˜“
-P
-java:S4973¥"9Use the "equals" method if value comparison was intended.(¦‘Ì
-P
-java:S4973¸"9Use the "equals" method if value comparison was intended.(›’Ö¶
-U
-java:S4973Ë"9Use the "equals" method if value comparison was intended.(†ÜÖ‰ûÿÿÿÿ
-U
-java:S4973Ş"9Use the "equals" method if value comparison was intended.(Š•Ú—ÿÿÿÿÿ
-n	java:S116"TRename this field "button_00" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÚšşÿÿÿÿ
-n	java:S116"TRename this field "button_01" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‰îãşÿÿÿÿ
-i	java:S116"TRename this field "button_02" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö™üë
-n	java:S116"TRename this field "button_10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ä£Šşÿÿÿÿ
-n	java:S116"TRename this field "button_11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§šªïøÿÿÿÿ
-n	java:S116 "TRename this field "button_12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âğßøøÿÿÿÿ
-n	java:S116!"TRename this field "button_20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¾§Şÿÿÿÿÿ
-n	java:S116""TRename this field "button_21" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚½Çüúÿÿÿÿ
-i	java:S116#"TRename this field "button_22" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•–‰
-g
-java:S37762"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ˆéÏX
-O
-java:S1854O"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-O
-java:S1854b"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-O
-java:S1854v"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854ˆ"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854›"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854®"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854Á"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854Ô"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-P
-java:S1854ç"9Remove this useless assignment to local variable "valor".(íƒÍÑ
-R	java:S125‡"<This block of commented-out lines of code should be removed.(§­­Ä
-N
-java:S1135œ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-B
-java:S1659´"+Declare "retornoLinhas" on a separate line.(‹À…›
+java:S1104"WMake matrizVelha a static final constant or non-public and provide accessors if needed.(’½…Ñ
+n	java:S116%"TRename this field "button_21" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚½Çüúÿÿÿÿ
 E
-java:S1659´".Declare "retornoDiagonais" on a separate line.(‹À…›
+java:S1659·".Declare "retornoDiagonais" on a separate line.(‹À…›
 N
-java:S1135û"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+java:S1135Ÿ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+A
+java:S1481"*Remove this unused "valor" local variable.(íƒÍÑ
+O
+java:S1854R"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+O
+java:S4973p"9Use the "equals" method if value comparison was intended.(Âƒà
+O
+java:S1854y"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+n	java:S116""TRename this field "button_11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§šªïøÿÿÿÿ
+r
+java:S1104."WMake nomeJogador a static final constant or non-public and provide accessors if needed.(¾Â·åıÿÿÿÿ
+?
+java:S1604Ì"(Make this anonymous inner class a lambda(¶óÂä
+>
+java:S1604“"(Make this anonymous inner class a lambda(öÇ,
+?
+java:S1604€"(Make this anonymous inner class a lambda(°Ç€¥
 @
-java:S1481O"*Remove this unused "valor" local variable.(íƒÍÑ
+java:S1481y"*Remove this unused "valor" local variable.(íƒÍÑ
+A
+java:S1481‹"*Remove this unused "valor" local variable.(íƒÍÑ
 @
-java:S1481b"*Remove this unused "valor" local variable.(íƒÍÑ
+java:S1481e"*Remove this unused "valor" local variable.(íƒÍÑ
+>
+java:S1604G"(Make this anonymous inner class a lambda(¼µ»Ë
+C
+java:S1604n"(Make this anonymous inner class a lambda(Çûå®øÿÿÿÿ
+O
+java:S1854e"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+P
+java:S1854ê"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+P
+java:S4973»"9Use the "equals" method if value comparison was intended.(›’Ö¶
+A
+java:S1481×"*Remove this unused "valor" local variable.(íƒÍÑ
+>
+java:S1604Z"(Make this anonymous inner class a lambda(Ûó¡Û
+O
+java:S4973\"9Use the "equals" method if value comparison was intended.(ÒÓÚÄ
+?
+java:S1604¹"(Make this anonymous inner class a lambda(Á¡ğî
 @
-java:S1481v"*Remove this unused "valor" local variable.(íƒÍÑ
+java:S1481R"*Remove this unused "valor" local variable.(íƒÍÑ
+N
+java:S1135ş"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+n	java:S116"TRename this field "button_01" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‰îãşÿÿÿÿ
+U
+java:S4973á"9Use the "equals" method if value comparison was intended.(Š•Ú—ÿÿÿÿÿ
+m
+java:S1104/"XMake nomeOponente a static final constant or non-public and provide accessors if needed.(™™ˆ~
+B
+java:S1659·"+Declare "retornoLinhas" on a separate line.(‹À…›
+P
+java:S4973•"9Use the "equals" method if value comparison was intended.(’˜“
+P
+java:S1854"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+U
+java:S4973Î"9Use the "equals" method if value comparison was intended.(†ÜÖ‰ûÿÿÿÿ
+P
+java:S1854×"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+n	java:S116!"TRename this field "button_10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ä£Šşÿÿÿÿ
+g
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ˆéÏX
 A
-java:S1481ˆ"*Remove this unused "valor" local variable.(íƒÍÑ
-A
-java:S1481›"*Remove this unused "valor" local variable.(íƒÍÑ
-A
-java:S1481®"*Remove this unused "valor" local variable.(íƒÍÑ
-A
-java:S1481Á"*Remove this unused "valor" local variable.(íƒÍÑ
-A
-java:S1481Ô"*Remove this unused "valor" local variable.(íƒÍÑ
-A
-java:S1481ç"*Remove this unused "valor" local variable.(íƒÍÑ
+java:S1481Ä"*Remove this unused "valor" local variable.(íƒÍÑ
+i	java:S116 "TRename this field "button_02" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö™üë
+n	java:S116#"TRename this field "button_12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âğßøøÿÿÿÿ
+n	java:S116$"TRename this field "button_20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¾§Şÿÿÿÿÿ
+i	java:S116&"TRename this field "button_22" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•–‰
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(‹÷”çÿÿÿÿÿ
+P
+java:S4973¨"9Use the "equals" method if value comparison was intended.(¦‘Ì
+P
+java:S1854Ä"9Remove this useless assignment to local variable "valor".(íƒÍÑ
+T
+java:S4973I"9Use the "equals" method if value comparison was intended.(Û¬ïşÿÿÿÿ
 F
-java:S1068"+Remove this unused "jogador" private field.(½Ùìşÿÿÿÿ
+java:S19480")Make "cliente" transient or serializable.(Ó…ß®8ĞáÒ†/

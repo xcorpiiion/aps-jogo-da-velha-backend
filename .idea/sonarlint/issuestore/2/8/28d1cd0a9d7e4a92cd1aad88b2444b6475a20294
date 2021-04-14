@@ -1,7 +1,4 @@
 
 ?
-java:S1948+")Make "cliente" transient or serializable.(Ó…ß®
-g
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8æã²ç…/
-Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(ªì‡
-]	java:S1257"<This block of commented-out lines of code should be removed.(Ò¶ÏŒúÿÿÿÿ8äÂ·ç…/
+java:S1948*")Make "cliente" transient or serializable.(Ó…ß®
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(ªì‡

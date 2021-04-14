@@ -1,13 +1,10 @@
-package br.com.unip.aps.jogo_velha.tela;
+package br.com.unip.jogodavelhaaps.tela;
 
-import br.com.unip.aps.jogo_velha.cliente.Cliente;
-import br.com.unip.aps.jogo_velha.cliente_chat.ClienteChat;
+import br.com.unip.jogodavelhaaps.cliente.Cliente;
+import br.com.unip.jogodavelhaaps.cliente_chat.ClienteChat;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -21,8 +18,7 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 @Getter
 @Slf4j
-@SpringBootApplication
-public class TelaJogo extends JFrame implements CommandLineRunner {
+public class TelaJogo extends JFrame {
 
     private JPanel contentPane;
 
@@ -44,15 +40,6 @@ public class TelaJogo extends JFrame implements CommandLineRunner {
     private JTextField ipServidor;
 
     private JTextField portaServidor;
-
-    public static void main(String[] args) {
-        SpringApplication.run(TelaJogo.class);
-    }
-
-    @Override
-    public void run(String... args) throws Exception {
-        this.init();
-    }
 
     public void init() {
         invokeLater(() -> {
