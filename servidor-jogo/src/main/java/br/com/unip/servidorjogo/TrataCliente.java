@@ -120,16 +120,16 @@ public class TrataCliente implements Runnable {
         }
     }
 
-    public void jogar(String id, String linha, String coluna) {
+    public void jogar(String id, String linha, String nickname) {
 
-        System.out.println("Jogar br.com.dellgarcia.jogo_velha.Servidor: " + id + "  -  " + linha + ";" + coluna);
+        System.out.println("Jogar br.com.dellgarcia.jogo_velha.Servidor: " + id + "  -  " + linha);
 
         ClienteServidor clienteServidor = this.servidorJogoApplication.clientes.get(Integer.parseInt(id));
 
-        servidorJogoApplication.distribuiMensagem(clienteServidor.getOponentePS(), "jogar;" + linha + ";" + coluna);
+        servidorJogoApplication.distribuiMensagem(clienteServidor.getOponentePS(), "jogar;" + linha + ";" + nickname);
 
         for (ClientePassivo clientePassivo : clienteServidor.getClientePassivo()) {
-            servidorJogoApplication.distribuiMensagem(clientePassivo.getLoginPS(), "jogarPassivo;" + id + ";" + linha + ";" + coluna);
+            servidorJogoApplication.distribuiMensagem(clientePassivo.getLoginPS(), "jogar;" + linha + ";" + nickname);
         }
     }
 }

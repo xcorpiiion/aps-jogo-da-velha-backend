@@ -15,7 +15,7 @@ public class ServidorJogoApplication {
         new ServidorJogoApplication(11111).executa();
     }
 
-    private int porta;
+    private final int porta;
     public Map<Integer, ClienteServidor> clientes;
     private static int idCliente = 0;
 
